@@ -25,7 +25,7 @@ test('should return Fizz if is divisivle by three', () => {
 //HELP!!!!!
     test('should return Fizz if is divisivle by three or five', () => {
         //Given
-        let num =  3 && 5;
+        let num =  3 || 5;
         //When
         const result = FizzBuzz(num);
         //Then

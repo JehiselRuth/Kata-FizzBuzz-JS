@@ -6,9 +6,9 @@
         if (num % 5 == 0) {
         result += 'Buzz';
           }
-        if (num % 5 === 0 && num % 3 == 0 ) {
-        result += 'FizzBuzz';
-      }
-      return result;
+        if (num % 5 == 0 && num % 3 == 0 ) {
+          result += 'FizzBuzz';
+        }
+        return result;
     }
     
